@@ -1,6 +1,5 @@
 import {Navigate} from '@/pages/navigate'
 import {Home} from '@/pages/home'
-import {Login} from '@/pages/login'
 const routes = [
   {
     path: '/',
@@ -9,10 +8,6 @@ const routes = [
   {
     path: '/home',
     component: Home
-  },
-  {
-    path: '/login',
-    component: Login
   },
   {
     path: '*',
